@@ -50,3 +50,31 @@ Production (set in hosting provider or client/.env.production)
 
 VITE_API_BASE_URL=https://YOUR-RENDER-BACKEND.onrender.com/api
 VITE_SOCKET_URL=https://YOUR-RENDER-BACKEND.onrender.com
+
+## Install
+
+From the repo report:
+
+cd server
+npm install
+
+cd ../client
+npm install
+
+## Run (Development)
+
+Start the API server:
+
+cd server
+npm run dev
+# or: npm start
+
+Start the client:
+
+cd client
+npm run dev
+
+Default URLs:
+
+Client: http://localhost:5173
+Server: http://localhost:5000
